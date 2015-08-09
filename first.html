@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Git Auto Config Tool--by wangbin 00293507</title>
+    <!-- load MUI and font-awesome -->
+    <link href="css/mui.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="js/mui.min.js"></script>
+    <!-- style and script -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="text/javascript" src="js/main.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="mui-appbar" id="appbar">
+      <div class="mui-text-display2 mui-text-white" id="title-txt">Git Auto Config Tool</span>
+      </div>
+    </header>
+    <div class="mui-container" id="main-wrapper">
+      <h2>Install and configure Git automatically</h2>
+      <p>Tell me IP addr, username, password of your SuSe. Wait a moment, and all things will be done for you automatically.</p>
+      <p>If you're interested in how it works, you can view my source code <a href="">here</a></p>
+      <p>Need any help? send me an eSpace msg. My ID: <span class="mui-text-caption">wangbin 00293507</span></p>
+      <div class="mui-panel">
+        <form>
+          <legend>Login Info</legend>
+          <div class="mui-form-group">
+            <input type="text" class="mui-form-control">
+            <label class="mui-form-floating-label">IP address</label>
+          </div>
+          <div class="mui-form-group">
+            <input type="text" class="mui-form-control">
+            <label class="mui-form-floating-label">username</label>
+          </div>
+          <div class="mui-form-group">
+            <input type="text" class="mui-form-control">
+            <label class="mui-form-floating-label">password</label>
+          </div>
+          <button class="mui-btn mui-btn-floating" id="btn-rnd">
+            <i class="fa fa-check" id="btn-chk"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

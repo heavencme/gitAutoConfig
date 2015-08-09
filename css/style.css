@@ -1,0 +1,21 @@
+#appbar {
+	background-color: #78909C;
+	color: #FFF;
+}
+
+#main-wrapper {
+	margin-top:6%;
+}
+
+#title-txt {
+	text-align: center;
+}
+
+#btn-rnd {
+	background: #2196F3;
+	float: right;
+}
+
+#btn-chk {
+	font-size: 1.69em;
+}
